@@ -1,9 +1,9 @@
 
 import './App.css'
 
-// import ProductTab from './ProductTab'
-import Click from './Events/click'
-import Form from './Events/form'
+import ProductTab from './ProductTab'
+// import Click from './Events/click'
+// import Form from './Events/form'
 
 function App() {
 //   let styles = {
@@ -20,8 +20,8 @@ function App() {
     
     <div >
       
-      
-        <Form />
+      <ProductTab />
+        {/* <Form /> */}
 
     </div>
   )

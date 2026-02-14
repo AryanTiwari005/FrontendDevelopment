@@ -1,0 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  padding: 40px 50px;
+  border-radius: 16px;
+  width: 420px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+}
+
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+
+input {
+  padding: 10px 14px;
+  width: 65%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+button {
+  padding: 10px 14px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: #00c6ff;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 114, 255, 0.4);
+}
+
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+
+li {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+li button {
+  background: #ff4b5c;
+}
+
+li button:hover {
+  box-shadow: 0 5px 15px rgba(255, 75, 92, 0.4);
+}
